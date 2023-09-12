@@ -1,0 +1,2 @@
+layout pipenv
+ln -sf $VIRTUAL_ENV .venv
