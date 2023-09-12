@@ -4,3 +4,14 @@
 
 -- python config
 vim.g.python3_host_prog = vim.fn.stdpath("config") .. "/.venv/bin/python3"
+
+-- indentation
+vim.opt.expandtab = false
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 0
+vim.opt.softtabstop = 0
+vim.opt.smarttab = true
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+vim.opt.copyindent = true
+vim.opt.preserveindent = true
