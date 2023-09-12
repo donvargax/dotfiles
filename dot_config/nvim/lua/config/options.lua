@@ -15,3 +15,14 @@ vim.opt.smartindent = true
 vim.opt.autoindent = true
 vim.opt.copyindent = true
 vim.opt.preserveindent = true
+
+-- show hidden characters
+vim.opt.list = true
+vim.opt.listchars = {
+	tab = "▸ ",
+	trail = "·",
+	extends = "»",
+	precedes = "«",
+	nbsp = "␣",
+	eol = "↲",
+}
